@@ -74,7 +74,7 @@ final totalDurationProvider = AutoDisposeStreamProvider<Duration?>.internal(
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef TotalDurationRef = AutoDisposeStreamProviderRef<Duration?>;
-String _$currentSongIndexHash() => r'020767e3d6c3f1e9e8efe77277740d5a44449d11';
+String _$currentSongIndexHash() => r'11c3a6d3d85a70a30266c77e7184891178ae2040';
 
 /// See also [CurrentSongIndex].
 @ProviderFor(CurrentSongIndex)
@@ -90,7 +90,7 @@ final currentSongIndexProvider =
     );
 
 typedef _$CurrentSongIndex = AutoDisposeNotifier<int>;
-String _$playingStateHash() => r'69e843f73c2631c391bb3b5ed03d726ae781a969';
+String _$playingStateHash() => r'a11abe061a4033abe76e11a1f7fe32a322a8aaff';
 
 /// See also [PlayingState].
 @ProviderFor(PlayingState)
